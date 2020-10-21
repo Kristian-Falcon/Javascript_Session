@@ -1,0 +1,7 @@
+Functions helps in modular programming:
+1. Simple Function
+2. Oarameterized Function
+3. Function with a return statement
+4. Function Expression
+5. Annonymous Function
+6. Closure Function
