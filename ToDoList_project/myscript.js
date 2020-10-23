@@ -21,8 +21,8 @@ for (i = 0; i < close.length; i++) {
 function newTodo() {
     var inputValue = document.getElementById('myInput').value;
     var text = document.createTextNode(inputValue);
-    var li = document.createElement('li');
-    li.appendChild(text);
+    var li = document.createElement('li');  //<li></li>
+    li.appendChild(text);                   //<li>something</li>
     if (inputValue === '') {
         alert('You must write something..')
     } else {
